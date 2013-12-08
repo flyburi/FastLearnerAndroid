@@ -27,4 +27,3 @@ public class ContentsDatabaseHelper extends SQLiteOpenHelper {
 	    ContentsTable.onUpgrade(database, oldVersion, newVersion);
 	  }
 	}
-	 

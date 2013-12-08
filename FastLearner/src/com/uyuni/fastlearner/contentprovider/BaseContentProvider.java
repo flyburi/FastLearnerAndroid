@@ -1,8 +1,5 @@
 package com.uyuni.fastlearner.contentprovider;
 
-import java.util.Arrays;
-import java.util.HashSet;
-
 import com.uyuni.fastlearner.db.ContentsDatabaseHelper;
 import com.uyuni.fastlearner.db.ContentsTable;
 
@@ -16,12 +13,13 @@ import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 import android.text.TextUtils;
 
+import java.util.Arrays;
+import java.util.HashSet;
+
 public class BaseContentProvider extends ContentProvider {
 
-	// database
 	private ContentsDatabaseHelper database;
 
-	// used for the UriMacher
 	private static final int CONTENTS = 10;
 	private static final int CONTENT_ID = 20;
 
