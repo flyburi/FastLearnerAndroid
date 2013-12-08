@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FastLearner</string>
+    <string name="no_contents">Currently there are no content items maintained</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Delete menu</string>
+    <string name="content_summary">Summary</string>
+    <string name="content_description">Delete</string>
+    <string name="content_edit_summary">Summary</string>
+    <string name="content_edit_description">Description</string>
+    <string name="content_edit_confirm">Confirm</string>
+
+</resources>
